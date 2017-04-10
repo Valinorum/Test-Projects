@@ -14,18 +14,18 @@ def binsearch(arr, l, r, x):
         return -1
 
 arr=[]
-n=int(input('Enter the number of elements in the array: ')
+n=int(input('Enter the number of elements in the array: '))
 for i in range(0,n,1):
     b=int(input("Enter the elements:"))
     arr.append(b)               
 print (arr)
-x=int(input('Enter the number you wish to search: ')
+x=int(input('Enter the number you wish to search: '))
 
 result=binsearch(arr, 0, len(arr)-1, x)
 
 if result!=-1:
-      print "Element is present at index %d" % result
+      print ("Element is present at index %d" % result)
 else:
-      print "Element is not present"
+      print ("Element is not present")
       
             
